@@ -1662,7 +1662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Connectors_Footprints:SMB_Molex_0731000103_THT_RA"
+		(property "Footprint" "0731000103:SMB_Molex_0731000103_THT_RA"
 			(at 153.67 124.46 0)
 			(effects
 				(font
