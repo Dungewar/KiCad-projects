@@ -69,7 +69,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -93,7 +92,7 @@
 	(footprint "RF_Connectors_Footprints:SMB_Molex_0731000103_THT_RA"
 		(layer "F.Cu")
 		(uuid "4191a5aa-e3f7-481f-ab9e-a2b6d9a26b80")
-		(at 148.6 114.9 180)
+		(at 149 122.5 180)
 		(property "Reference" "U2"
 			(at 0 -17 180)
 			(unlocked yes)
