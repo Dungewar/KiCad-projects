@@ -78,7 +78,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -95,7 +95,7 @@
 		(uuid "4191a5aa-e3f7-481f-ab9e-a2b6d9a26b80")
 		(at 148.06 122.74 180)
 		(property "Reference" "U2"
-			(at 0 -17 180)
+			(at -4.94 -1.86 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "142cf8ec-aee9-44a5-bdf1-7f14f2e4c9cd")
@@ -107,9 +107,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -15.5 180)
+			(at 0.06 5.14 270)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "afda0550-7993-4c8c-a045-19310f1d24d8")
 			(effects
 				(font
@@ -149,18 +150,8 @@
 		(sheetfile "compact_photodiode_v2.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 3.5 3.5)
-			(end -3.5 3.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "7b0d5ae9-c7f0-46a5-8173-8bfed8fe7ac0")
-		)
-		(fp_line
-			(start 3.5 -3.5)
-			(end 3.5 3.5)
+			(start 3.5 -1)
+			(end 3.5 1)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -169,28 +160,18 @@
 			(uuid "517ab592-10a0-4652-abf5-d75418a6a983")
 		)
 		(fp_line
-			(start 1.835 -3.5)
-			(end 3.5 -3.5)
+			(start 1 3.5)
+			(end -1 3.5)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c036f5af-5747-4ee7-8952-1eaebfcc179d")
+			(uuid "7b0d5ae9-c7f0-46a5-8173-8bfed8fe7ac0")
 		)
 		(fp_line
-			(start 1.835 -3.5)
-			(end 1.835 -10.6)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "7272754c-382e-4ced-88ad-074bedaf2817")
-		)
-		(fp_line
-			(start 1.835 -10.6)
-			(end -1.835 -10.6)
+			(start 1 -3.5)
+			(end -1 -3.5)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -199,28 +180,8 @@
 			(uuid "b751b01d-bd5a-4f44-bf4f-359d1a2d8110")
 		)
 		(fp_line
-			(start -1.835 -10.6)
-			(end -1.835 -3.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "4e4f348c-4108-41a1-b391-61bff0d64368")
-		)
-		(fp_line
-			(start -3.5 -3.5)
-			(end -1.835 -3.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "60c5f810-52ca-4658-a052-5ebd2e5cc8df")
-		)
-		(fp_line
-			(start -3.5 -3.5)
-			(end -3.5 3.5)
+			(start -3.5 -1)
+			(end -3.5 1)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -269,7 +230,7 @@
 			(uuid "7e93df16-ba48-4431-9f75-67348ec4c596")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -13.5 180)
+			(at 0.06 4.74 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2f055fb1-462c-4d19-a5f0-18a9be5704a2")
@@ -336,6 +297,17 @@
 			(uuid "3dfe937f-5cb1-4b23-aed7-f67b9fb67c80")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/Dungewar/Documents/KiCadProjects/KiCad-projects/libraries/individual-components/3D-models/SMB_Molex_0731000103.stp"
+			(offset
+				(xyz 0 10.6 5.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
 	)
 	(footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
 		(layer "F.Cu")
@@ -344,7 +316,7 @@
 		(descr "Thin-pin DC Barrel Jack, https://cdn-shop.adafruit.com/datasheets/21mmdcjackDatasheet.pdf")
 		(tags "Power Jack")
 		(property "Reference" "BT1"
-			(at 5.75 8.45 90)
+			(at 7.35 1.8 90)
 			(layer "F.SilkS")
 			(uuid "2b53ba63-8c15-4504-a6be-0cc12d5a59f0")
 			(effects

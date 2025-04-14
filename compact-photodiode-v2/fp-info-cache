@@ -1,11 +1,4 @@
-24739093394042138
-0731000103
-SMB_Molex_0731000103_THT_RA
-
-
-0
-5
-2
+24739093568908718
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -20,13 +13,6 @@ audio belton reverb
 0
 7
 7
-Bad_Name_2
-731000103
-
-
-0
-0
-0
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -99525,3 +99511,17 @@ Varistor VF
 0
 2
 2
+individual-components
+SMB_Molex_0731000103
+
+
+0
+5
+2
+individual-components
+SMB_TexasInstruments_OPT101P
+
+OPT101P 
+0
+8
+8
