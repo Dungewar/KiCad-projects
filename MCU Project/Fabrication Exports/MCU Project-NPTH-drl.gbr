@@ -1,15 +1,25 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.6-9.0.6~ubuntu24.04.1*%
-%TF.CreationDate,2026-01-09T16:28:50-08:00*%
+%TF.CreationDate,2026-01-10T16:19:16-08:00*%
 %TF.ProjectId,MCU Project,4d435520-5072-46f6-9a65-63742e6b6963,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,NonPlated,1,2,NPTH*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.6-9.0.6~ubuntu24.04.1) date 2026-01-09 16:28:50*
+G04 Created by KiCad (PCBNEW 9.0.6-9.0.6~ubuntu24.04.1) date 2026-01-10 16:19:16*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,3.200000*%
+%TD*%
 G04 APERTURE END LIST*
+D10*
+%TO.C,M3-3*%
+X108000000Y-80250000D03*
+%TO.C,M3-2*%
+X108000000Y-109000000D03*
+%TO.C,M3-1*%
+X166000000Y-110500000D03*
 M02*
