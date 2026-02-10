@@ -2412,14 +2412,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Module:Arduino_Nano"
+	(footprint "Microprocessors:Arduino_Nano_With_3D"
 		(layer "F.Cu")
 		(uuid "976e3b2c-9dde-4f0b-9e5a-03da08dd1c86")
 		(at 129.84 93.5 90)
 		(descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino Nano")
 		(property "Reference" "A1"
-			(at 7.25 19.66 90)
+			(at 7.62 -5.08 90)
 			(layer "F.SilkS")
 			(uuid "a97b699f-cdf9-45ef-ab00-4423211cd3e5")
 			(effects
@@ -2440,7 +2440,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2453,7 +2453,7 @@
 				)
 			)
 		)
-		(property "Description" "Arduino Nano Every"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2479,7 +2479,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "86c60eb2-f2ed-4b16-bc39-9747a83a1c86")
+			(uuid "c6facae5-db6e-434e-869b-98d20c843c40")
 		)
 		(fp_line
 			(start -1.4 -3.94)
@@ -2489,7 +2489,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "13bef30f-8f79-42d3-aade-4b773babf3e5")
+			(uuid "7eae14df-666c-4ba0-ad7b-aa2c00686be8")
 		)
 		(fp_line
 			(start 13.97 -1.27)
@@ -2499,7 +2499,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "41dc6222-8701-48b6-86ac-cdc297628300")
+			(uuid "f17fc8cc-c972-4e95-91c0-7875566f25df")
 		)
 		(fp_line
 			(start 13.97 -1.27)
@@ -2509,7 +2509,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "49febbe3-d2d3-4ed1-821a-e5263feec303")
+			(uuid "6e4e867c-139d-4fe2-835e-5687ccf8d05e")
 		)
 		(fp_line
 			(start 1.27 -1.27)
@@ -2519,7 +2519,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "550d825d-3bfd-4583-b455-fa44d4ba9457")
+			(uuid "38ecf591-47f0-4525-b763-8e56ba008b99")
 		)
 		(fp_line
 			(start 1.27 1.27)
@@ -2529,7 +2529,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2fe01cc3-6226-4a75-9f04-be46dcba169c")
+			(uuid "ec6c3921-5acc-4c8a-a248-dc8513e03d08")
 		)
 		(fp_line
 			(start 1.27 1.27)
@@ -2539,7 +2539,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6dee71b6-4f6b-40e6-8274-efeb9d3ff86b")
+			(uuid "802fc936-be18-4cbb-a9e5-eaa82e70aa43")
 		)
 		(fp_line
 			(start 1.27 1.27)
@@ -2549,7 +2549,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fc885db2-cd60-4b27-97a8-32d39f015559")
+			(uuid "2979428e-8ace-4838-9918-c31c1a87d1d5")
 		)
 		(fp_line
 			(start -1.4 1.27)
@@ -2559,7 +2559,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "74b83fe0-6e6d-4934-bf5e-ca8678f7bb75")
+			(uuid "232be702-361c-40a7-a882-8b3ef1d7b7a1")
 		)
 		(fp_line
 			(start 11.56 31.62)
@@ -2569,7 +2569,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a3f7c9f7-7842-48f7-b82f-9904471000ca")
+			(uuid "5b24dd0e-e163-4f44-bb66-53bc6b93f658")
 		)
 		(fp_line
 			(start 3.68 31.62)
@@ -2579,7 +2579,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "60f8d474-51bb-404f-9d60-a6ea3b534fae")
+			(uuid "d6ef3e92-bd2f-4746-9ff0-38119995c83a")
 		)
 		(fp_line
 			(start 13.97 36.83)
@@ -2589,7 +2589,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "53b4cf73-10fb-4077-8797-9d2d349cfc96")
+			(uuid "297b056c-890c-4358-82c0-4b7bced2a2ea")
 		)
 		(fp_line
 			(start 1.27 36.83)
@@ -2599,7 +2599,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "229085cf-bf03-4240-bf62-5c867b965832")
+			(uuid "72f6087b-edbe-4f3a-aeca-395ea73fa74c")
 		)
 		(fp_line
 			(start 16.64 39.5)
@@ -2609,7 +2609,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "352e1d7b-10dc-44e4-bc5e-1a82dd8e18c8")
+			(uuid "04926513-1928-4526-9984-10c88e6b3426")
 		)
 		(fp_line
 			(start 16.64 39.5)
@@ -2619,7 +2619,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9a4cc531-4bc5-4f00-b7b9-32dc6339128b")
+			(uuid "0728a24b-9742-4208-bb82-f45c87d5385d")
 		)
 		(fp_line
 			(start -1.4 39.5)
@@ -2629,7 +2629,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f5366f68-b32e-4e07-a7bb-8086231b88da")
+			(uuid "d4cee75a-63c5-4394-9c95-4bdcfdc8e673")
 		)
 		(fp_line
 			(start 11.56 42.04)
@@ -2639,7 +2639,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8e556a10-07a6-44ce-88c6-b3f8e8eb8220")
+			(uuid "20dd8a02-5c0b-442c-b692-941602398cdc")
 		)
 		(fp_line
 			(start 3.68 42.04)
@@ -2649,7 +2649,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c9cef308-b46f-4636-9ece-d2cd634ec7a2")
+			(uuid "701e65d3-9792-49bc-851e-2d4760edd47b")
 		)
 		(fp_line
 			(start -1.53 -4.06)
@@ -2659,7 +2659,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3cfd2350-0df2-4745-89da-cf7cdc88ba6b")
+			(uuid "717ee630-a1e0-4d8d-a67b-ec25d390926e")
 		)
 		(fp_line
 			(start -1.53 -4.06)
@@ -2669,7 +2669,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9650162d-7480-4a15-b9ee-3308a2a84dfa")
+			(uuid "e80c2122-a967-47a9-9004-7344203abdc4")
 		)
 		(fp_line
 			(start 16.75 42.16)
@@ -2679,7 +2679,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "716142af-c1c1-4aa1-af6c-148815a2f66d")
+			(uuid "7879e572-ff4a-456b-a379-a2e7f51c4831")
 		)
 		(fp_line
 			(start 16.75 42.16)
@@ -2689,7 +2689,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ba528286-bbe6-4d7e-8b4d-e79b61a520ed")
+			(uuid "f3bf8392-2829-4402-8cb3-e00ff7f595b2")
 		)
 		(fp_line
 			(start 16.51 -3.81)
@@ -2699,7 +2699,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "32d45836-15f5-4de1-ac40-5912403d0eaa")
+			(uuid "83ad1045-4eb6-4e8d-9e9b-14fc922561da")
 		)
 		(fp_line
 			(start 0 -3.81)
@@ -2709,7 +2709,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8d5b3bc3-2108-4a25-b230-6af3563f7c86")
+			(uuid "101466d6-0fa9-4116-b732-262d9352e703")
 		)
 		(fp_line
 			(start -1.27 -2.54)
@@ -2719,7 +2719,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3cf4cc4b-a99b-4468-8918-4baa29d94cc7")
+			(uuid "8ffe59cf-5005-4008-aa95-ff14e1348e76")
 		)
 		(fp_line
 			(start 11.43 31.75)
@@ -2729,7 +2729,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "73d837fb-e5cb-4c7c-89f3-d751d29664f2")
+			(uuid "00b82c6b-c6ab-4e5f-a87b-086d4b10b004")
 		)
 		(fp_line
 			(start 3.81 31.75)
@@ -2739,7 +2739,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a003fb52-feee-4d5e-a79d-a0d7854c140e")
+			(uuid "0f33c258-60eb-4d20-bceb-d647d84943dc")
 		)
 		(fp_line
 			(start 16.51 39.37)
@@ -2749,7 +2749,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d1338d32-0e7c-453c-92da-d79dc49c25df")
+			(uuid "2c7068e2-3120-471d-8093-ee2eeaaae94f")
 		)
 		(fp_line
 			(start -1.27 39.37)
@@ -2759,7 +2759,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6c8677c0-5755-44ba-972b-5cedd6bab78b")
+			(uuid "3e183f17-7a7f-421d-b006-01b736cf39b2")
 		)
 		(fp_line
 			(start 11.43 41.91)
@@ -2769,7 +2769,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "07ac8059-cfd1-436c-b17c-6ad58aa8a582")
+			(uuid "fad2608f-2831-4dff-9d61-aba6704f006c")
 		)
 		(fp_line
 			(start 3.81 41.91)
@@ -2779,7 +2779,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e0c84556-ed9b-4c18-9087-db064f10fd3f")
+			(uuid "5d42b646-f4f9-4987-ad31-ee150109335b")
 		)
 		(fp_text user "USB"
 			(at 7.62 35.56 90)
@@ -3135,15 +3135,15 @@
 			(uuid "039d7ffb-d94c-451c-8460-0109fa2999aa")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Module.3dshapes/Arduino_Nano_WithMountingHoles.step"
+		(model "${KIPRJMOD}/Snapeda.3dshapes/ABX00028.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -18 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -90)
 			)
 		)
 	)

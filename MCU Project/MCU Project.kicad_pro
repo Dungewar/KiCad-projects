@@ -490,7 +490,7 @@
       "plot": "Fabrication Exports/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MCU Project.step",
       "svg": "",
       "vrml": ""
     },
